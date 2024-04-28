@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panel de Administrador</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+    <link href="css/admin-panel.css" rel="stylesheet"> <!-- Archivo CSS para estilos específicos del panel de administrador -->
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center my-4">Panel de Administrador</h1>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card mb-4">
+                    <div class="card-header">
+                        Lista de Solicitudes Actuales
+                    </div>
+                    <div class="card-body">
+                        <ul class="list-group">
+                            <!-- Aquí se listarán las solicitudes actuales -->
+                            <li class="list-group-item">Solicitud 1</li>
+                            <li class="list-group-item">Solicitud 2</li>
+                            <li class="list-group-item">Solicitud 3</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        Tiempo de Solicitudes Activas
+                    </div>
+                    <div class="card-body">
+                        <ul class="list-group">
+                            <!-- Aquí se mostrará el tiempo de las solicitudes activas -->
+                            <li class="list-group-item">Solicitud 1 - 5 días</li>
+                            <li class="list-group-item">Solicitud 2 - 10 días</li>
+                            <li class="list-group-item">Solicitud 3 - 3 días</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card mb-4">
+                    <div class="card-body">
+                        <button class="btn btn-primary btn-block">Sobreescribir Información de Solicitud</button>
+                    </div>
+                </div>
+                <div class="card mb-4">
+                    <div class="card-body">
+                        <button class="btn btn-primary btn-block">Crear Nueva Solicitud</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <button class="btn btn-success btn-block">Dar de Alta Nuevos Usuarios</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

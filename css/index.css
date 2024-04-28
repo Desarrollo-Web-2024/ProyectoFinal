@@ -1,0 +1,30 @@
+body {
+    margin-top: 56px; /* Espacio para el navbar fijo */
+}
+
+.custom-navbar, footer {
+    background: linear-gradient(180deg, #B4AA99, #dcd0c0); /* Gradiente para el navbar y footer */
+    color: #333;
+}
+
+.custom-navbar .navbar-nav .nav-link, footer a {
+    color: #333;
+    transition: color 0.3s ease-in-out;
+}
+
+.custom-navbar .navbar-nav .nav-link:hover, footer a:hover {
+    color: #555;
+    text-decoration: none;
+}
+
+.header-image {
+    background: url('../img/foto1.jpg') no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    padding-top: 56px; /* Ajuste para el navbar fijo */
+}

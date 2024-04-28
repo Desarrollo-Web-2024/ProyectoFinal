@@ -1,0 +1,75 @@
+.overlay {
+    background-color: rgba(0, 0, 0, 0.5); /* Superposición oscura para mejorar la legibilidad */
+    padding: 20px;
+}
+
+h1, h2 {
+    color: #f5f5f5; /* Color claro para los títulos sobre fondos oscuros */
+}
+
+p {
+    color: #f0f0f0; /* Color claro para los párrafos sobre fondos oscuros */
+}
+
+.container h2, .container p {
+    color: #333; /* Color oscuro para texto sobre fondo claro */
+}
+
+.container {
+    background-color: #fff; /* Fondo claro para contenedores */
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombras sutiles */
+}
+
+.btn-primary {
+    background-color: #9a947c;
+    border-color: #8a8370;
+}
+
+.btn-primary:hover {
+    background-color: #8a8370;
+    border-color: #797258;
+}
+
+footer {
+    padding: 10px 0;
+    text-align: center;
+}
+
+footer a {
+    color: #333;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.signup-container {
+    background: url('../img/foto2.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup-form {
+    background-color: rgba(255, 255, 255, 0.9); /* Fondo semi-transparente */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 400px;
+}
+
+.form-title {
+    font-size: 24px;
+    color: #333; /* Cambia el color del texto para mejorar la legibilidad */
+    margin-bottom: 20px;
+}
+
+.font-weight-bold {
+    font-weight: bold;
+}

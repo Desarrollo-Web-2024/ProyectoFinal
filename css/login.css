@@ -1,0 +1,39 @@
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: stretch; /* Ajuste para que los elementos ocupen la misma altura */
+    height: 100vh;
+}
+
+.login-form {
+    background-color: rgba(255, 255, 255, 0.9); /* Fondo semi-transparente */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 40%; /* El formulario ocupa el 40% del ancho de la pantalla */
+}
+
+.form-title {
+    font-size: 24px;
+    color: #333; /* Cambia el color del texto para mejorar la legibilidad */
+    margin-bottom: 20px;
+}
+
+.font-weight-bold {
+    font-weight: bold;
+}
+
+.login-image {
+    flex: 1; /* La imagen ocupa el resto del espacio disponible */
+    background: url('../img/playa.jpg') no-repeat center center;
+    background-size: cover; /* La imagen cubre toda la altura y el ancho del contenedor */
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-image img {
+    display: none; /* Ocultamos la etiqueta img si no es necesaria */
+}
