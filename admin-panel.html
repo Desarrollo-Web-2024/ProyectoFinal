@@ -18,11 +18,8 @@
                         Lista de Solicitudes Actuales
                     </div>
                     <div class="card-body">
-                        <ul class="list-group">
-                            <!-- Aquí se listarán las solicitudes actuales -->
-                            <li class="list-group-item">Solicitud 1</li>
-                            <li class="list-group-item">Solicitud 2</li>
-                            <li class="list-group-item">Solicitud 3</li>
+                        <ul class="list-group" id="active-events">
+
                         </ul>
                     </div>
                 </div>
@@ -31,11 +28,8 @@
                         Tiempo de Solicitudes Activas
                     </div>
                     <div class="card-body">
-                        <ul class="list-group">
-                            <!-- Aquí se mostrará el tiempo de las solicitudes activas -->
-                            <li class="list-group-item">Solicitud 1 - 5 días</li>
-                            <li class="list-group-item">Solicitud 2 - 10 días</li>
-                            <li class="list-group-item">Solicitud 3 - 3 días</li>
+                        <ul class="list-group"  id="active-events-time">
+
                         </ul>
                     </div>
                 </div>
@@ -43,21 +37,12 @@
             <div class="col-md-6">
                 <div class="card mb-4">
                     <div class="card-body">
-                        <button class="btn btn-primary btn-block">Sobreescribir Información de Solicitud</button>
-                    </div>
-                </div>
-                <div class="card mb-4">
-                    <div class="card-body">
-                        <button class="btn btn-primary btn-block">Crear Nueva Solicitud</button>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-body">
-                        <button class="btn btn-success btn-block">Dar de Alta Nuevos Usuarios</button>
+                        <button class="btn btn-primary btn-block" id="create-event">Crear Nueva Solicitud</button>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    <script src="./admin-panel.js"></script>
 </body>
 </html>

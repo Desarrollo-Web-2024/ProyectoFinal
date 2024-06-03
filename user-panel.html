@@ -18,11 +18,7 @@
                         Solicitudes Activas
                     </div>
                     <div class="card-body">
-                        <ul class="list-group">
-                            <!-- Aquí se listarán las solicitudes activas -->
-                            <li class="list-group-item">Solicitud 1</li>
-                            <li class="list-group-item">Solicitud 2</li>
-                            <li class="list-group-item">Solicitud 3</li>
+                        <ul class="list-group" id="active-events">
                         </ul>
                     </div>
                 </div>
@@ -31,11 +27,7 @@
                         Historial de Solicitudes
                     </div>
                     <div class="card-body">
-                        <ul class="list-group">
-                            <!-- Aquí se listarán el historial de solicitudes -->
-                            <li class="list-group-item">Solicitud 4</li>
-                            <li class="list-group-item">Solicitud 5</li>
-                            <li class="list-group-item">Solicitud 6</li>
+                        <ul class="list-group"  id="past-events">
                         </ul>
                     </div>
                 </div>
@@ -43,7 +35,7 @@
             <div class="col-md-6">
                 <div class="card mb-4">
                     <div class="card-body">
-                        <button class="btn btn-primary btn-block">Crear Nueva Solicitud</button>
+                        <button class="btn btn-primary btn-block" id="create-event">Crear Nueva Solicitud</button>
                     </div>
                 </div>
                 <div class="card">
@@ -54,5 +46,6 @@
             </div>
         </div>
     </div>
+    <script src="./user-panel.js"></script>
 </body>
 </html>
